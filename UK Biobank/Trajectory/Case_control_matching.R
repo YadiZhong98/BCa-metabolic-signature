@@ -2,7 +2,7 @@
 library(data.table)
 library(dplyr)
 library(MatchIt)
-setwd("D:/ZYD/R/meta/biobank/time")
+
 data <- fread("Covariates2.csv")
 data$Sex <- as.factor(data$Sex)
 data$Smoke <- as.factor(data$Smoke)
