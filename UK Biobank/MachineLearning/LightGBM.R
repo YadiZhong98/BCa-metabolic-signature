@@ -552,7 +552,7 @@ main <- function() {
   N_BOOTSTRAP <- 200      
   
   set.seed(my_seed)
-  dpath <- "d:/ZYD/R/meta/biobank/machine/prevelant" 
+  dpath <- "x" 
   
   params_dict <- list(
     learning_rate = c(0.01, 0.05, 0.1),
