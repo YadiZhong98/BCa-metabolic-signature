@@ -62,7 +62,7 @@ def sort_nicely(l):
     return l
 
 nb_cpus = 20
-dpath = r'D:\ZYD\R\meta\biobank\incident'
+dpath = r'x'
 
 tgt_df = pd.read_csv(os.path.join(dpath, 'IncidentDiseaseTable.csv'))
 tgt_lst = tgt_df.Name.tolist() 
